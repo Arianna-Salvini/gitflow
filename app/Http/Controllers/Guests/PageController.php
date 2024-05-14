@@ -11,7 +11,7 @@ class PageController extends Controller
     public function home()
     {
         $vehicles = Vehicle::all();
-        dd($vehicles);
+        // dd($vehicles);
         return view('guests.home');
     }
 
